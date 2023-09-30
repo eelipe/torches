@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    color: rgb(122, 0, 0);
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size :xx-large;
+}
+
+p{
+    text-align: center;
+    font-style: initial;
+    color: aliceblue;
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: url(https://blinkclyro.files.wordpress.com/2017/07/ry_hdr_fosterthepeople_073117.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

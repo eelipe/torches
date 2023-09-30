@@ -1,0 +1,87 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(98, 0, 0);
+    color: #ddd;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    width: 250px;
+}
+
+.descricao{
+    width: 250px;
+}
+
+h2{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+p{
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.duracao{
+    width: 250px;
+    margin-top: 25px;
+}
+
+.barra{
+    width: 250px;
+    height: 6px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+progress{
+    height: 6px;
+    width: 0%;
+    background-color: #333;
+}
+
+.ponto{
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.tempo{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.player{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.botao-play, .botao-pause{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.botao-pause{
+    display: none;
+}
+
+.setas{
+    font-size: 40px;
+    cursor: pointer;
+}
