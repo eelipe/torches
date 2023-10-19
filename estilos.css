@@ -23,3 +23,19 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+a:visited{
+    color: rgb(7, 139, 255);
+}
+a:link{
+    color: aliceblue;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+a:active{
+    color: rgb(0, 255, 200);
+}
+
